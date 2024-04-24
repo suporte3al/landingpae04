@@ -33,7 +33,7 @@ export default function Hero() {
               Projetado para os trabalhos mais exigentes, nosso Martelete Profissional de 800W oferece potência e precisão incomparáveis para sua próxima obra. Com sua força robusta e design ergonômico, você pode perfurar e cinzelar com facilidade e eficiência.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <Link href="https://www.atacadodolojista.com.br/martelete-profissional-220v-800w-sds-modelo--rh80p-max-tools/p" target='_blank' className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0">Comprar Agora</Link>
+                <Link href="https://www.atacadodolojista.com.br/furadeira-impacto-3-8-560w-r-tm500b2-b-d/p" target='_blank' className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0">Comprar Agora</Link>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <Link href={`https://api.whatsapp.com/send/?phone=558420305000&text=${'%23vendedor'}&type=phone_number&app_absent=0`} target='_blank' className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" >Falar com Vendedor</Link>
@@ -41,7 +41,7 @@ export default function Hero() {
             </div>
           </div>
           <ModalVideo
-            video="/videos/video.mp4"
+            video="/videos/furadeira.mp4"
             videoWidth={1024}
             videoHeight={586} />
         </div>

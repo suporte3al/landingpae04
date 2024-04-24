@@ -1,8 +1,9 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/14204_1.jpg'
-import FeatImage02 from '@/public/images/14204_2.jpg'
-import FeatImage03 from '@/public/images/14204_3.jpg'
+import FeatImage01 from '@/public/images/5470.png'
+import FeatImage02 from '@/public/images/7317.png'
+import FeatImage03 from '@/public/images/11236.png'
+import Link from 'next/link'
 
 export default function Zigzag() {
   return (
@@ -12,7 +13,11 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-xl font-semibold py-2 px-4 mb-5 text-green-600 bg-green-200 rounded-full lg:mb-7 lg:py-3 lg:px-8">Comprar Agora</div>
+            <button className="inline-flex text-xl font-semibold py-2 px-4 mb-5 text-green-600 bg-green-200 rounded-full lg:mb-7 lg:py-3 lg:px-8">
+              <Link href='https://www.atacadodolojista.com.br/promocao' target='_blank'>
+                Comprar Agora
+              </Link>
+            </button>
             <h1 className="h2 mb-4">Um produto, soluções ilimitadas</h1>
             <p className="text-xl text-gray-500">Projetado para os trabalhos mais exigentes, nosso Martelete Profissional de 800W oferece potência e precisão incomparáveis para sua próxima obra.</p>
           </div>

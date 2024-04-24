@@ -1,33 +1,33 @@
-import Image01 from '@/public/images/14204_1.jpg'
-import Image02 from '@/public/images/14204_2.jpg'
-import Image03 from '@/public/images/14204_3.jpg'
-import Image from 'next/image'
-import Link from 'next/link'
+import Image01 from '@/public/images/2224.png'
+import Image02 from '@/public/images/5470.png'
+import Image03 from '@/public/images/5896.png'
+import Image04 from '@/public/images/7317.png'
+import Image05 from '@/public/images/11236.png'
 import { BlockImagesData } from './blockImages-data'
 
 const data = [
   {
     srcImage: Image01,
-    oldPrice: 460.00,
-    newPrice: 437.00
+    oldPrice: 258.00,
+    newPrice: 226.15
   },
   {
     srcImage: Image02,
-    oldPrice: 460.00,
-    newPrice: 437.00
+    oldPrice: 189.00,
+    newPrice: 157.40
   },
   {
     srcImage: Image03,
+    oldPrice: 250.00,
+    newPrice: 220.09
+  },
+  {
+    srcImage: Image04,
     oldPrice: 460.00,
     newPrice: 437.00
   },
   {
-    srcImage: Image01,
-    oldPrice: 460.00,
-    newPrice: 437.00
-  },
-  {
-    srcImage: Image03,
+    srcImage: Image05,
     oldPrice: 460.00,
     newPrice: 437.00
   },
