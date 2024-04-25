@@ -19,15 +19,11 @@ export default function ModalVideo({
   const videoRef = useRef<HTMLVideoElement>(null)
 
   return (
-    <div>
-      <div>
-        <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-          <video ref={videoRef} width={videoWidth} height={videoHeight} autoPlay muted loop>
-            <source src={video} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
+    <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
+      <video className='shadow-2xl' ref={videoRef} width={videoWidth} height={videoHeight} autoPlay muted loop>
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   )
 }

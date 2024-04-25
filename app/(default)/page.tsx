@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <BlockImages />
       <Features />
-      <Zigzag />
+      {/* <Zigzag /> */}
       <Testimonials />
       <Newsletter />
     </>

@@ -23,14 +23,14 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">MARTELETE PROFISSIONAL 220V 800W SDS MAX TOOLS</h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">Furadeira Impacto 3/8 560W B&D</h1>
             <div className='flex gap-4'  data-aos="fade-up" data-aos-delay="200">
               <FaHammer className='w-12 h-12 md:w-6 md:h-6'/>
-              <p className="text-xl text-gray-500">Domine suas tarefas de construção com o Martelete Profissional de 800W! </p>
+              <p className="text-xl text-gray-500">Domine suas tarefas de construção com a Furadeira Impacto 3/8 560W! </p>
               <FaHammer className='-scale-x-100 w-12 h-12 md:w-6 md:h-6' />
             </div>
             <p className="text-xl text-gray-500 mb-8" data-aos="fade-up" data-aos-delay="200">
-              Projetado para os trabalhos mais exigentes, nosso Martelete Profissional de 800W oferece potência e precisão incomparáveis para sua próxima obra. Com sua força robusta e design ergonômico, você pode perfurar e cinzelar com facilidade e eficiência.</p>
+              Projetado para os trabalhos mais exigentes, nossa Furadeira Impacto 3/8 oferece potência e precisão incomparáveis para sua próxima obra</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <Link href="https://www.atacadodolojista.com.br/furadeira-impacto-3-8-560w-r-tm500b2-b-d/p" target='_blank' className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0">Comprar Agora</Link>
