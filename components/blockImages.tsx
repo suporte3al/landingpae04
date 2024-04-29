@@ -1,8 +1,9 @@
-import Image01 from '@/public/images/2224.png'
-import Image02 from '@/public/images/5470.png'
-import Image03 from '@/public/images/5896.png'
-import Image04 from '@/public/images/7317.png'
-import Image05 from '@/public/images/11236.png'
+import Image01 from '@/public/images/furadeira1.png'
+import Image02 from '@/public/images/furadeira2.png'
+import Image03 from '@/public/images/furadeira3.png'
+import Image04 from '@/public/images/furadeira4.png'
+import Image05 from '@/public/images/furadeira5.png'
+import Image06 from '@/public/images/furadeira6.png'
 import { BlockImagesData } from './blockImages-data'
 
 const data = [
@@ -32,7 +33,7 @@ const data = [
     newPrice: 437.00
   },
   {
-    srcImage: Image02,
+    srcImage: Image06,
     oldPrice: 460.00,
     newPrice: 437.00
   },

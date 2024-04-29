@@ -10,11 +10,11 @@ type PropsBlockImages = {
 export const BlockImagesData = ({ srcImage, oldPrice, newPrice }: PropsBlockImages) => {
   return (
     <div className="relative flex flex-col items-center shadow-lg rounded-xl" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-      <Link href="https://www.atacadodolojista.com.br/furadeira-impacto-3-8-560w-r-tm500b2-b-d/p">
+      <Link href="https://www.atacadodolojista.com.br/furadeira-impacto-3-8-560w-r-tm500b2-b-d/p" className="w-full">
         <div className="flex flex-col h-full" data-aos="fade-up"> {/**adicionar um pb-1 e bg-gray-700 se for utilizar os preços em html */}
 
-          <div className="mb-0 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6" data-aos="fade-up">
-            <Image className="max-w-full mx-auto md:max-w-none h-auto" src={srcImage} width={320} height={280} alt="Features 01" />
+          <div className="mb-0 max-w-xl md:max-w-none md:w-full md:col-span-5 lg:col-span-6" data-aos="fade-up">
+            <Image className="max-w-full md:max-w-none h-auto min-h-[343px] max-h-[343px] min-w-full" src={srcImage} width={320} height={280} alt="Features 01" />
           </div>
           {/* 
           <div className="text-gray-700 flex flex-col text-center font-medium px-2 pt-6 border-gray-700">
