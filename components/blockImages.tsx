@@ -6,6 +6,7 @@ import Image05 from '@/public/images/furadeira5.png'
 import Image06 from '@/public/images/furadeira6.png'
 import { BlockImagesData } from './blockImages-data'
 
+
 const data = [
   {
     srcImage: Image01,
