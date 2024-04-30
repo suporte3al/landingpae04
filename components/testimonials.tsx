@@ -6,17 +6,17 @@ import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 const data = [
   {
     srcImage: TestimonialImage01,
-    author: 'Delavex',
+    author: 'Larissa',
     Testimonial: 'A melhor parte em comprar no Atacado do Lojista é que estamos cientes de que o preço será o melhor do mercado, e teremos sempre um atendimento de ponta!'
   },
   {
     srcImage: TestimonialImage02,
-    author: 'Whoami',
+    author: 'Alex',
     Testimonial: 'A melhor parte em comprar no Atacado do Lojista é que estamos cientes de que o preço será o melhor do mercado, e teremos sempre um atendimento de ponta!'
   },
   {
     srcImage: TestimonialImage03,
-    author: 'DevAlex',
+    author: 'Ricardo',
     Testimonial: 'A melhor parte em comprar no Atacado do Lojista é que estamos cientes de que o preço será o melhor do mercado, e teremos sempre um atendimento de ponta!'
   }
 ]
