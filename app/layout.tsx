@@ -5,6 +5,7 @@ import { Inter, Architects_Daughter } from 'next/font/google'
 import Header from '@/components/ui/header'
 import Banner from '@/components/banner'
 import { Popup } from '@/components/ui/popup'
+import { HeadScripts } from './HeadScript'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,6 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-Br">
+      <HeadScripts />
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-[#f8f8f8] text-gray-700 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
@@ -42,4 +44,3 @@ export default function RootLayout({
     </html>
   )
 }
- 
